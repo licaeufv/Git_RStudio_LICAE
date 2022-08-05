@@ -1,0 +1,33 @@
+---
+title: "PCA"
+author: "licaeufv"
+date: "2022-08-05"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+# Introduction
+Análise de componentes principais
+
+## Gari guri 
+
+Obtenção de um sumário do conjunto de dados Iris.
+
+A $x_{1}^{2}$
+```{r}
+
+data("iris3")
+summary(iris)
+```
+
+
+
+```{r}
+library(tidyverse)
+```
+
+##Realizando ánalise
+
+
+wflow_publish(file = "analysis/PCA.Rmd", message = "Test")
