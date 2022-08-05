@@ -31,3 +31,6 @@ library(tidyverse)
 
 
 wflow_publish(file = "analysis/PCA.Rmd", message = "Test")
+
+wflow_publish(file = "analysis/index.Rmd", message = "Test")
+
